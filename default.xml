@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote  name="ilbers"
+           fetch="git://github.com/ilbers/"/>
+
+  <remote  name="sunxi"
+           fetch="git://github.com/linux-sunxi/"/>
+
+  <remote  name="yocto"
+           fetch="git://git.yoctoproject.org"/>
+
+  <project path="poky" name="poky"
+           remote="yocto"
+           revision="fc45deac89ef63ca1c44e763c38ced7dfd72cbe1"/>
+
+  <project path="poky/meta-lotos" name="meta-lotos"
+           remote="ilbers"
+           revision="2299e115f5345793a9d6bb0c21be48d70a7562ce"/>
+
+  <project path="poky/meta-sunxi" name="meta-sunxi"
+           remote="sunxi"
+           revision="e51d5cfdee124a7e01d347b739915b8abfa2ce34" />
+
+  <project path="poky/meta-qt5" name="meta-qt5"
+           remote="ilbers"
+           revision="4c4c274fe4a714f3a1cb225f200475a3d818c256"/>
+</manifest>
