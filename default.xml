@@ -16,7 +16,7 @@
 
   <project path="poky/meta-lotos" name="meta-lotos"
            remote="ilbers"
-           revision="2299e115f5345793a9d6bb0c21be48d70a7562ce"/>
+           revision="dd6dd8ac7f7502453b41bd963bdea419d3228877"/>
 
   <project path="poky/meta-sunxi" name="meta-sunxi"
            remote="sunxi"
